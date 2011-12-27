@@ -12,7 +12,7 @@
     meta_type="Filesystem Directory View"
     directory="msc.sitetheme:skins/msc_sitetheme_styles"/>
 
- <skin-path name="MSCTheme" based-on="Plone Default">
+ <skin-path name="MSCTheme" based-on="Plone Classic Theme">
   <layer name="msc_sitetheme_custom_images"
      insert-after="custom"/>
   <layer name="msc_sitetheme_custom_templates"

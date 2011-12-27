@@ -8,8 +8,7 @@
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="MSCTheme"
-      />
-  
+      />  
   <!-- Viewlets registration -->
 	<browser:viewlet
 		name="msc.global_sections"
@@ -18,7 +17,7 @@
 		layer=".interfaces.IThemeSpecific"
 		permission="zope2.View"
 		/>
-
+        
 	   <!-- Footer -->
 	<browser:viewlet
 	    name="plone.footer"
@@ -46,3 +45,4 @@
       />
 
 </configure>
+

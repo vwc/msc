@@ -219,7 +219,7 @@ dt.portletHeader {
 
 /** @content **/
 
-.documentContent {
+#content {
     background: transparent;
 }
 
@@ -235,7 +235,7 @@ dt.portletHeader {
     border: none;
 }
 
-#content ul {
+#content ul.configlets {
     list-style: none;
 }
 

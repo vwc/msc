@@ -38,3 +38,9 @@ setup(name='msc.sitetheme',
       """,
       paster_plugins = ["ZopeSkel"],
       )
+
+install_requires=[
+    'setuptools',
+    # -*- Extra requirements: -*-
+    'plonetheme.classic',
+    ],
