@@ -239,6 +239,10 @@ dt.portletHeader {
     list-style: none;
 }
 
+#content ul {
+    list-style-type:none;
+}
+
 #content ul li {
     list-style-image: none;
     background:url(++resource++msc.sitetheme.images/bullet.gif) no-repeat 0px 4px transparent;

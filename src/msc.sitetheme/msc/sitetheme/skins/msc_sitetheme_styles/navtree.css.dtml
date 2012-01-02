@@ -48,9 +48,9 @@ dd.portletItem .navTreeItem a:hover {
 }
 a.navTreeCurrentItem {
     background: transparent;
-    color: white !important;
+    color: black !important;
     border: none;
-    padding: 9px 0px 9px 35px !important;
+    padding: 9px 0px 9px 5px !important;
 }
 
 li.navTreeCurrentNode div {
