@@ -223,6 +223,10 @@ dt.portletHeader {
     background: transparent;
 }
 
+#content .visualClear {
+    clear: none;
+}
+
 .documentFirstHeading {
     color: #7292b7;
     border: 0px dotted #7292b7;
@@ -233,6 +237,10 @@ dt.portletHeader {
 #content h3 {
     color: #7292b7;
     border: none;
+}
+
+#content p {
+    display: block;
 }
 
 #content ul.configlets {

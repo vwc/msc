@@ -4,7 +4,9 @@
 <body>
 <div metal:define-macro="portlet">
 
-<dl class="portlet" id="portlet-images">
+<dl class="portlet" id="portlet-images"
+    tal:define="portal_state context/@@plone_portal_state;
+                portal portal_state/portal">
 
     <dd class="portletItem">
 		<img tal:attributes="src portal/++resource++msc.sitetheme.images/quality-1.png;
