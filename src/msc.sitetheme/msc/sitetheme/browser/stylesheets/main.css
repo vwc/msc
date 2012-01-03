@@ -275,6 +275,16 @@ dt.portletHeader {
     background: transparent !important;
 }
 
+.pfg-form {
+    padding: 1em 0em;
+    margin: 1em 0em;
+    border: 0px solid red;
+}
+
+.pfg-form .field {
+    clear: none;
+}
+
 /** @ portal-footer **/
 
 #portal-footer {
