@@ -22,4 +22,6 @@ var
 *.pyc
 *.pyo
 etc/**/*
+src/ade25.fabfiles
+.codeintel
 
