@@ -15,9 +15,9 @@ env.port = '22222'
 env.user = 'root'
 env.hosts = ['z2']
 env.webserver = '/opt/webserver/buildout.webserver'
-env.code_root = '/opt/sites/apc/buildout.apc'
+env.code_root = '/opt/sites/msc/buildout.msc'
 env.local_root = '/Users/sd/dev/msc/buildout.msc'
-env.sitename = 'apc'
+env.sitename = 'msc'
 env.code_user = 'root'
 env.prod_user = 'www'
 
